@@ -34,7 +34,66 @@ let booleanIsLoggedIn = Boolean(isLoggedIn)
 let someNumber = 12345
 
 let stringInNumber = String(someNumber) // converts to string
-console.log(stringInNumber); // shows number 12345 only
-console.log(typeof stringInNumber); // when asked for type it shows string DT
+// console.log(stringInNumber); // shows number 12345 only
+// console.log(typeof stringInNumber); // when asked for type it shows string DT
 
 
+//**************Operations****************
+
+let Value = 2345
+let negValue = -Value
+console.log(negValue);
+
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2/2);
+// console.log(2%3); // it gives reminder for 2/3 and reads 2 modulus 3
+
+// console.log("Hello" + " Rushikesh");
+
+// console.log("1"+2); //o/p will be string 12
+// console.log(1+"2"); // o/p will be number 12
+// console.log("1"+2+3); // output will be string as 123
+// console.log(1+2+"3"); // output will be number as 33
+
+// let gameCounter = 100
+// gameCounter++
+// console.log(gameCounter); // o/p is 101
+
+// let gameCounter = 100
+// ++gameCounter
+// console.log(gameCounter); // o/p is 101
+
+
+// let x = 5
+// y = x++
+
+// console.log({x}, {y});
+
+// let x2 = 3n;
+// const y2 = x2++;   // x2 is 4n; y2 is 3n
+
+// let a = 5
+// b = ++y
+
+// console.log({a}, {b});
+
+// let x2 = 3n;
+// const y2 = ++x2;  // // x2 is 4n; y2 is 4n
+
+// let x = 3;
+// const y = x++;  //If used postfix, with operator after operand (for example, x++),
+//              //   the increment operator increments and returns the value before incrementing.
+
+// console.log(`x:${x}, y:${y}`);
+// // Expected output: "x:4, y:3"
+
+// let a = 3;
+// const b = ++a;  //If used prefix, with operator before operand (for example, ++x),
+//               // the increment operator increments and returns the value after incrementing.
+
+// console.log(`a:${a}, b:${b}`);
+// // Expected output: "a:4, b:4"
+
+// link to study : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Increment
